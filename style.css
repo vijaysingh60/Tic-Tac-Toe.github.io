@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+.name{
+    font-size: bold;
+    text-align: center;
+    margin: 20px;
+}
+.bigbox{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3,80px);
+    grid-template-rows: repeat(3,80px);
+    justify-content: center;
+    background-color: yellow;
+}
+.box{
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 60px;
+    text-align: center;
+}
+.brig{
+    border-right: none;
+}
+.blef{
+    border-left: none;
+}
+.btop{
+    border-top: none;
+}
+.bbot{
+    border-bottom: none;
+}
+.turn1{
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+button{
+    
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: black ;
+    color: white;
+    border: none;
+    border-radius: 40%;
+    
+}
+#reset{
+    display: flex;
+    justify-content: center;
+}
+
