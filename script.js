@@ -4,10 +4,11 @@ function tab(clicked_id){
     if(document.getElementById(clicked_id).innerHTML === ""){
         document.getElementById(clicked_id).innerHTML = turn;
         checkwin();
+        turn = turn === "O" ? "X" : "O";
         if(!gameover){
             document.querySelector(".turn1").innerHTML = turn + "'s turn";
         }
-        turn = turn === "O" ? "X" : "O";
+    
     }
 }
 
